@@ -7,14 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencias
 node_modules
+
+# Archivos generados
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# Configuración de Visual Studio Code
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
+
+# Otros editores y archivos del sistema
 .idea
 .DS_Store
 *.suo
