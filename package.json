@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "node scripts/run-typescript.mjs src/index.ts --watch",
+    "start": "node scripts/run-typescript.mjs src/index.ts",
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "serve": "node dist/index.js"
   },
   "devDependencies": {
-    "typescript": "~6.0.2",
-    "vite": "^8.2.2"
+    "typescript": "~6.0.2"
   }
 }
